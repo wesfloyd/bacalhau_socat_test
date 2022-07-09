@@ -1,6 +1,3 @@
-# minimal conda environment
-# Build --> docker build -t conda/jupyterlab .
-# Run   --> docker run --rm -it -p 8888:8888 -v conda-work:/root conda/jupyterlab
 FROM python:slim
 
 RUN apt-get update && apt-get -y upgrade \
