@@ -4,7 +4,7 @@ To test locally:
 1) Clone the repository
 2) Invoke the docker container:
 ```
-docker run -it -v $(pwd)/input:/project/input \
+docker run -v $(pwd)/input:/project/input \
 	-v $(pwd)/output:/project/output \
 	wesfloyd/bacalwow-socat-test
 ```
