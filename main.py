@@ -28,8 +28,7 @@ def center_dates(ds):
 def get_and_process_sst(url=None):
     # get noaa sst
     if url is None:
-        url = ("https://downloads.psl.noaa.gov" +
-               "/Datasets/noaa.oisst.v2/sst.mnmean.nc")
+        url = ("input/sst.mnmean.nc")
 
     with fsspec.open(url) as fp:
         ds = xr.open_dataset(fp)
@@ -40,8 +39,7 @@ def get_and_process_sst(url=None):
 
 def get_and_process_socat(url=None):
     if url is None:
-        url = ("https://www.socat.info/socat_files" +
-               "/v2021/SOCATv2021_tracks_gridded_monthly.nc.zip")
+        url = ("input/SOCATv2021_tracks_gridded_monthly.nc.zip")
 
     with fsspec.open(url, compression='zip') as fp:
         ds = xr.open_dataset(fp)
@@ -73,8 +71,8 @@ def main():
                                                "and pyseaflux package")
 
     # save as zarr
-    ds_out.to_zarr("./SOCATv2021_tracks_gridded_monthly_processed.zarr")
-
+    ds_out.to_zarr("output/SOCATv2021_tracks_gridded_monthly_processed.zarr")
+    print("Zarr file written to disk, job completed successfully")
 
 if __name__ == "__main__":
     main()
