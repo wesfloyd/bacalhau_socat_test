@@ -1,6 +1,4 @@
 // Taken from: https://web3.storage/docs/intro/#quickstart
-// token bacalwow
-// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweEJGMzgzYzMyQ2QzRDAyNjk4ZTVDZDUxMjY5Qjg3ODk1MkJjYTU2ODUiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2NTc2NTk0NjM5OTEsIm5hbWUiOiJiYWNhbHdvdyJ9.jsS_EPPZnURB1EVx9mckWDIT8nNNk4FIk-oxH3acgLg
 
 
 import process from 'process'

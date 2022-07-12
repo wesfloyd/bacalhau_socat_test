@@ -19,7 +19,7 @@ To run on Bacalhau:
 2) Use the CID of the input directory to run the job on Bacalhau
 
 ```
-bacalhau docker run -v bafybeihde3ggze2h7vnic6tomttnp4mj7o4ifpa65ys57nrp35dnq4s7ri:/project/input \
+bacalhau docker run -v [TOKEN]:/project/input \
 	-o $(pwd)/output:/project/output \
 	wesfloyd/bacalwow-socat-test
 
