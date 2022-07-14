@@ -20,7 +20,7 @@ To run on Bacalhau:
 
 ```
 bacalhau docker run -v bafybeihde3ggze2h7vnic6tomttnp4mj7o4ifpa65ys57nrp35dnq4s7ri:/project/input \
-	-o $(pwd)/output:/project/output \
+	-o output:/project/output \
 	wesfloyd/bacalwow-socat-test
 
 bacalhau list
