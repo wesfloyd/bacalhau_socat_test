@@ -5,7 +5,7 @@ To test locally:
 2) Invoke the docker container:
 ```
 docker run -v $(pwd)/input:/project/input \
-	-v $(pwd)/output:/project/output \
+	-v output:/project/output \
 	wesfloyd/bacalwow-socat-test
 ```
 
