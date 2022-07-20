@@ -10,7 +10,7 @@ docker run -v $(pwd)/input:/project/input \
 ```
 
 
-To run on Bacalhau:
+To run on [Bacalhau](https://github.com/filecoin-project/bacalhau):
 1) Upload the input directory to IPFS (via [Web3.storage folder upload script](https://web3.storage/docs/#create-the-upload-script))
     cd web3storage
     npm install
