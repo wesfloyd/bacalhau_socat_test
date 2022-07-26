@@ -1,11 +1,9 @@
 
-#Background
+# Background
 
 Scientific Purpose of the workload:
 
 In order to properly measure the amount of CO2 in section of the ocean across time we will use standard python libraries (xarray, pandas, numpy) and the pyseaflux package to process data from the The Surface Ocean CO₂ Atlas (SOCAT). We will combine measurements of the surface temperature, fugacity, and convert fugacity to partial pressure of CO2 in seawater.
-
-Bacalhau is used as the processing runtime for the dataset.
 
 References:
 - https://www.socat.info/
@@ -14,7 +12,7 @@ References:
 - https://github.com/wesfloyd/bacalhau_socat_test
 
 
-#Running the demo
+# Running the demo
 
 To test locally:
 1) Clone the repository
