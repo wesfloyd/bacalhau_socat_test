@@ -43,3 +43,4 @@ bacalhau describe [JOB_ID]
 
 bacalhau get [JOB_ID]
 ```
+This job will require approx 100s to complete on a Bacalhau node.
