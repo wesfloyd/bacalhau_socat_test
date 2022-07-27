@@ -3,7 +3,7 @@
 
 Scientific Purpose of the workload:
 
-In order to properly measure the amount of CO2 in section of the ocean across time we will use standard python libraries (xarray, pandas, numpy) and the pyseaflux package to process data from the The Surface Ocean CO₂ Atlas (SOCAT). We will combine measurements of the surface temperature, fugacity, and convert fugacity to partial pressure of CO2 in seawater.
+The Surface Ocean CO₂ Atlas (SOCAT) contains measurements of the [fugacity](https://en.wikipedia.org/wiki/Fugacity) of CO2 in seawater around the globe. But in order to calculate how much carbon the ocean is taking up from the atmosphere, these measurements need to be converted to partial pressure of CO2. We will convert the units by  combining measurements of the surface temperature and fugacity.  Python libraries (xarray, pandas, numpy) and the pyseaflux package facilitate this process.
 
 References:
 - https://www.socat.info/
